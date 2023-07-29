@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ارتكلو</string>
+    <string name="app_logo">لوجو التطبيق</string>
+    <string name="on_boarding_0_title">اقرأ مقالات شيقة كل يوم!</string>
+    <string name="on_boarding_0_subtitle">في العصر الرقمي اليوم ، أصبح الوصول إلى المقالات المثيرة أسهل من أي وقت مضى. اكتشف مكان قراءة المقالات الجيدة في هذه المقالة.</string>
+    <string name="on_boarding_1_title">إنشاء ونشر المقالات الخاصة بك إلى العالم!</string>
+    <string name="on_boarding_1_subtitle">مع Articlo ، يسهل على أي شخص نشر مقالات عبر الإنترنت.</string>
+    <string name="on_boarding_2_title">دعنا نتواصل مع الآخرين الآن!</string>
+    <string name="on_boarding_2_subtitle">مع Articlo ، يسهل على أي شخص نشر مقالات عبر الإنترنت.</string>
+    <string name="next">التالي</string>
+    <string name="skip">تخطي</string>
+    <string name="start">ابدا</string>
+    <string name="hello_there">مرحبا هناك 👋</string>
+    <string name="please_enter_your_username_email_and_password_to_sign_in">من فضلك ادخل اسم المستخدم او عنوان البريد الاليكتروني لتسجيل الدخول</string>
+    <string name="username_email">اسم المستخدم/البريد الاليكتروني</string>
+    <string name="password">الرقم السري</string>
+    <string name="forgot_password">نسيت كلمه المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="create_new_account">انشاء حساب جديد</string>
+    <string name="user_icon_image">ايقونه المستخدم</string>
+    <string name="loading">جار التحميل...</string>
+    <string name="please_wait_while_your_process_finish_it_may_take_seconds">من فضلك انتظر ريسما يتم التحميل, قد يستغرق ثوان بسيطه</string>
+    <string name="please_enter_all_required_fields">برجاء ملء جميع الحقول المطلوبه</string>
+    <string name="which_country_are_you_from">من اي بلد انت؟ 🏳️</string>
+    <string name="search">بحث</string>
+    <string name="please_select_country_of_origin">الرجاء تحديد بلد المنشأ.</string>
+    <string name="complete_your_profile">اكمل ملفك الشخصي. 🗒️</string>
+    <string name="don_t_worry_only_ypu_can_see_your_personal_data_no_one_will_be_able_to_see_it">لا تقلق ، أنت فقط من يستطيع رؤية بياناتك الشخصية. لن يتمكن أحد من رؤيتها.</string>
+    <string name="user_image">صوره المستخدم</string>
+    <string name="full_name">الاسم بالكامل</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثي</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="create_an_account">انشأ حساب 🔐</string>
+    <string name="enter_your_email_amp_password_if_you_forgot_it_then_you_have_to_do_forget_password">ادخل عنوان البريد الاليكتروني و الرقم السري, لو نسيت الرقم السري يمكنك الضغط علي نسيت الرقم السري وسيتم الاسترجاع</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="email">عنوان البريد الاليكتروني</string>
+    <string name="confirm_password">تاكيد الرقم السري</string>
+    <string name="select_your_topics_of_interest">"اختار المواضيع التي تهتم بها🏷️️"</string>
+    <string name="select_your_topics_of_interest_for_better_recommendations_or_you_can_skip">اختار المواضيع التي تهتم بها 🏷️.</string>
+    <string name="pick_some_people_to_follow">اختار بعض المستخدمين للمتابعه</string>
+    <string name="discover_people">اكتشف الاشخاص 🥰</string>
+    <string name="follow">تابع</string>
+    <string name="select_data_of_birth">اختار تاريخ ميلادك</string>
+    <string name="arrow_back">ايقونه الرجوع الي الخلف</string>
+    <string name="home">الرئيسيه</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="discover">اكتشف</string>
+    <string name="my_articles">مقالاتي</string>
+    <string name="recent_articles">المقالات الاخيره</string>
+    <string name="your_articles">مقالاتك</string>
+    <string name="on_your_bookmarks">مقالات في مرجعك</string>
+    <string name="invalid_email">عنوان بريد اليكتروني غير صالح</string>
+    <string name="this_field_is_required">هذا الحقل مطلوب</string>
+    <string name="wrong_email_or_password">عنوان بريد اليكتروني خاطأ او الرقم السري</string>
+    <string name="server_error">خطأ بالخادم</string>
+    <string name="no_internet">لا يوجد اتصال بي الانترنت</string>
+    <string name="unknown_error">خطأ غير معروف</string>
+    <string name="not_found">لا يوجد 404</string>
+    <string name="password_should_be_same">الرقم غير مطابق</string>
+    <string name="welcome_back">مرحبا بعودتك :)</string>
+    <string name="hello_user">اهلا, %s 👋🏻</string>
+</resources>
