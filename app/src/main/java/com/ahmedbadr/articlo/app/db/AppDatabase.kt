@@ -12,7 +12,7 @@ import com.ahmedbadr.articlo.data.model.entities.topic.TopicEntity
         CountryEntity::class,
         TopicEntity::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = false,
 )
 abstract class AppDatabase : RoomDatabase() {
