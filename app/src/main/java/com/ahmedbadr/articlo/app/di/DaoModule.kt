@@ -7,4 +7,8 @@ val daoModule = module {
     single {
         get<AppDatabase>().getCountryDao()
     }
+
+    single {
+        get<AppDatabase>().getTopicDao()
+    }
 }

@@ -8,6 +8,9 @@ import com.ahmedbadr.articlo.domain.usecase.authentication.LoginUseCase
 import com.ahmedbadr.articlo.domain.usecase.user.SaveAccessTokenUseCase
 import com.ahmedbadr.articlo.domain.usecase.country.GetCountriesFlowUseCase
 import com.ahmedbadr.articlo.domain.usecase.country.ListCountriesFromRemoteToLocalUseCase
+import com.ahmedbadr.articlo.domain.usecase.topic.GetTopicsListFlowUseCase
+import com.ahmedbadr.articlo.domain.usecase.topic.ListTopicsFromLocalUseCase
+import com.ahmedbadr.articlo.domain.usecase.topic.ListTopicsFromRemoteToLocalUseCase
 import com.ahmedbadr.articlo.domain.usecase.user.GetUserFullNameFlowUseCase
 import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.module
@@ -23,9 +26,12 @@ val useCaseModule = module {
     singleOf(::GetAccessTokenFlowUseCase)
     singleOf(::GetUserFullNameFlowUseCase)
 
-
-
     // country
     singleOf(::ListCountriesFromRemoteToLocalUseCase)
     singleOf(::GetCountriesFlowUseCase)
+
+    // topic
+    singleOf(::ListTopicsFromLocalUseCase)
+    singleOf(::ListTopicsFromRemoteToLocalUseCase)
+    singleOf(::GetTopicsListFlowUseCase)
 }
