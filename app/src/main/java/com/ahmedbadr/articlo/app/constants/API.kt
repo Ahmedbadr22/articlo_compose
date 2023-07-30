@@ -1,11 +1,12 @@
 package com.ahmedbadr.articlo.app.constants
 
 object API {
-    const val BASE_URL = "https://ee4b-197-56-28-146.ngrok-free.app"
+    const val BASE_URL = "https://3812-154-179-2-101.ngrok-free.app"
 
     // Apps
     private const val AUTHENTICATION_APP = "/authentication"
     private const val COUNTRY_APP = "/country"
+    private const val ARTICLE_APP = "/article"
 
     // auth
     const val LOGIN = "$AUTHENTICATION_APP/login"
