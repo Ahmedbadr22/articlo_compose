@@ -35,11 +35,7 @@ fun SelectTopicsOfInterestScreen() {
     val resources: Resources = LocalContext.current.resources
 
     val fakeTopics : List<Topic> = listOf(
-        Topic(1, "Sports"),
-        Topic(2, "Health"),
-        Topic(3, "Software Development"),
-        Topic(4, "Gaming"),
-        Topic(5, "Music"),
+        Topic(1, "Sports", "", 1),
     )
 
     Scaffold {

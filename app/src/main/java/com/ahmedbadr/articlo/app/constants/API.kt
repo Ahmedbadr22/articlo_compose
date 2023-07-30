@@ -7,6 +7,7 @@ object API {
     private const val AUTHENTICATION_APP = "/authentication"
     private const val COUNTRY_APP = "/country"
     private const val ARTICLE_APP = "/article"
+    private const val TOPIC_APP = "/topic"
 
     // auth
     const val LOGIN = "$AUTHENTICATION_APP/login"
@@ -14,4 +15,7 @@ object API {
 
     // country
     const val LIST_COUNTRIES = "$COUNTRY_APP/list-countries"
+
+    // Topic
+    const val LIST_TOPICS = "$TOPIC_APP/list-topics"
 }
